@@ -1,0 +1,72 @@
+
+.journeys__pictures-tooltipe { 
+    position: absolute;
+    top: 96px;
+    left: -58px;
+    z-index: 111;
+    background-color: var(--page-bg);
+    border-radius: 12px;
+    box-shadow: 0px 4px 32px 0px rgba(50, 75, 104, 0.17);
+
+    @media (max-width: $laptop-size) {
+        top: 26px;
+        left: 12px;
+    }
+
+    
+}
+
+.tooltipe2 {
+    padding: 12px;
+}
+
+.journeys__tooltipe-icons {
+    position: relative;
+    height: 48px;
+    margin-bottom: 16px;
+ }
+
+.tooltipe-icon { 
+    position: absolute;
+    top: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    &:nth-child(1) {
+        left: 0;
+        z-index: 200;
+    }
+
+    &:nth-child(2) {
+        left: 33px;
+        z-index: 202;
+    }
+
+    &:nth-child(3) {
+        left: 66px;
+        z-index: 220;
+    }
+
+}
+
+.journeys__tooltipe-desc { 
+
+    p {
+        font-size: 18px;
+        font-style: normal;
+        line-height: 100%;
+    }
+
+}
+
+.tooltipe-count {
+    color: var(--accent);
+    font-weight: 500;
+}
+
+.tooltipe-text {
+    color: var(--text-color);
+    font-weight: 450;
+}

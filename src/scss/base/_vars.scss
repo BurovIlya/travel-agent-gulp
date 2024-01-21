@@ -1,0 +1,35 @@
+:root {
+	--container-width: 1230px;
+	--container-padding: 15px;
+
+	--font-main: 'Circular Std', sans-serif;
+	
+	--page-bg: #ffffff;
+	--text-color: #181818;
+	--text-color-2: #909090;
+	--accent: #35AFF4;
+	--gray: #9E9E9E;
+	--black: #000000;
+	--border-line: rgba(144, 144, 144, 0.3);
+
+    
+}
+
+.dark {
+    --page-bg: #252526;
+    --text-color: #fff;
+}
+
+$desctop-size-large: 1750px;
+$desctop-size-mini: 1280px;
+$laptop-size: 1199px;
+$laptop-size-2: 1124px;
+$laptop-x-size: 1089px;
+$tablet-size: 989px;
+$tablet-x-size: 912px;
+$mobile-size: 767px;
+$mobile-x-size: 639px;
+$mobile-xx-size: 600px;
+$mobile-xxx-size: 500px;
+$mobile-xxxx-size: 420px;
+$mini-size: 366px;

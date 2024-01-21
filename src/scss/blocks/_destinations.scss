@@ -1,0 +1,91 @@
+
+.destinations { 
+    padding: 60px 0;
+
+    @media (max-width: $tablet-x-size) {
+        padding: 30px 0;
+    }
+}
+
+.destinations__header { 
+    @extend %flex-basic;
+    gap: 50px;
+    margin-bottom: 32px;
+
+    @media (max-width: $mobile-x-size) {
+        gap: 30px;
+    }
+
+    @media (max-width: $mobile-xxx-size) {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.destinations__header--text { 
+    max-width: 768px;
+}
+
+.destinations__title { 
+    margin-bottom: 16px;
+
+    h3 {
+        color: var(--text-color);
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+        @media (max-width: $tablet-x-size) {
+            font-size: 24px;
+        }
+    }
+}
+
+.destinations__header--btns { 
+    @extend %flex-basic;
+    gap: 15px;
+}
+.arrows-btn { 
+    width: 48px;
+    height: 48px;
+}
+
+.destinations__content {
+    position: relative;
+    overflow-x: hidden;
+    height: 378px;
+}
+
+.swiper {
+    height: 100%;
+}
+
+.slider {
+    @extend %flex-basic;
+    justify-content: flex-start;
+    height: 100%;
+
+    .product {
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: stretch;
+        padding: 0;
+        box-shadow: none;
+
+        .product__desc {
+            align-items: stretch;
+        }
+    }
+
+    
+}
+
+.slide {
+    height: 100%;
+}
+
+.swiper-slide {
+    width: 304px!important;
+}

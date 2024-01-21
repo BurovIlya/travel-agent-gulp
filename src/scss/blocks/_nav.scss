@@ -1,0 +1,64 @@
+
+.nav {
+    @extend %flex-basic;
+    gap: 32px;
+ }
+
+ .nav-logo {
+    flex-shrink: 0;
+ }
+
+.nav__list { 
+    @extend %flex-basic;
+    gap: 24px;
+
+    a {
+        color: var(--text-color);
+    }
+
+    a:hover, a.active {
+        color: var(--accent);
+    }
+
+    @media (max-width: $mobile-size) {
+        display: none;
+    }
+
+    
+}
+
+.nav__btns {
+    @extend %flex-inline;
+    gap: 12px;
+
+    & > a {
+        height: 40px;
+        padding: 8px 20px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: 150%;
+        transition: background-color 0.2s ease-in, color 0.2s ease-in, opacity 0.2s ease-in;
+
+        &:hover, &:focus {
+            opacity: 0.8;
+        }
+    }
+
+    @media (max-width: $mobile-size) {
+        display: none;
+    }
+
+ }
+
+.btn-login { 
+    border: 1px solid #B7B7B7;
+    color: #454545;
+}
+
+.btn-signup { 
+    background: #181818;
+    color: #FFF;
+}
+

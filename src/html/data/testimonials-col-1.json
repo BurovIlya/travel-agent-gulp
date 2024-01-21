@@ -1,0 +1,46 @@
+
+[
+    {
+        "text": "An outstanding resource for travel enthusiasts! The website's destination reviews and travel advice were spot-on. I now trust their recommendations for all my trips..",
+        "name": "Hendra Paru Paru",
+        "role": "Travel Enthusiast",
+        "img": "01.jpg",
+        "stars": 2
+    },
+    {
+        "text": "Amazing experience! The travel website made booking our vacation a breeze. Everything was well-organized, and we had a fantastic time exploring new places. Highly recommend!",
+        "name": "Nichole Edward",
+        "role": "Travel Enthusiast",
+        "img": "02.jpg",
+        "stars": 4
+    },
+    {
+        "text": "Lorem ipsum dolor sit amet, Efficient and reliable! The travel website helped me find the best travel deals, and their user-friendly interface made the booking process a breeze.",
+        "name": "Jonathan R.",
+        "role": "Travel Enthusiast",
+        "img": "03.jpg",
+        "stars": 3
+    },
+    {
+        "text": "An outstanding resource for travel enthusiasts! The website's destination reviews and travel advice were spot-on. I now trust their recommendations for all my trips..",
+        "name": "Hendra Paru Paru",
+        "role": "Travel Enthusiast",
+        "img": "01.jpg",
+        "stars": 2
+    },
+    {
+        "text": "Amazing experience! The travel website made booking our vacation a breeze. Everything was well-organized, and we had a fantastic time exploring new places. Highly recommend!",
+        "name": "Nichole Edward",
+        "role": "Travel Enthusiast",
+        "img": "02.jpg",
+        "stars": 4
+    },
+    {
+        "text": "Lorem ipsum dolor sit amet, Efficient and reliable! The travel website helped me find the best travel deals, and their user-friendly interface made the booking process a breeze.",
+        "name": "Jonathan R.",
+        "role": "Travel Enthusiast",
+        "img": "03.jpg",
+        "stars": 3
+    }
+    
+]

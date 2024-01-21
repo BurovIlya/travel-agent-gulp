@@ -1,0 +1,123 @@
+.subscribe {
+    padding: 40px 0 20px 0;
+    background-color: var(--accent);
+    background-image: url('./../img/subscribe/subscribe-pin-bg.svg');
+    background-repeat: no-repeat;
+    background-position: 32px center;
+    background-size: 236px 273px;
+
+    @media (max-width: $tablet-size) {
+        padding: 20px 0 20px 0;
+        background-size: 151px 175px;
+    }
+
+    @media (max-width: $mobile-xx-size) {
+        background-image: none;
+    }
+
+ }
+
+.subscribe__row { 
+    padding: 40px 24px 40px 0px;
+    @extend %flex-basic;
+    gap: 40px;
+
+    @media (max-width: $laptop-x-size) {
+        flex-direction: column;
+    }
+
+    @media (max-width: $tablet-size) {
+        padding: 20px 0px;
+    }
+
+    @media (max-width: $mobile-xx-size) {
+        gap: 20px;
+    }
+}
+
+.subscribe__desc-title {
+    color: var(--page-bg);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 4px;
+
+    @media (max-width: $desctop-size-large) {
+        color: var(--black);
+    }
+
+    @media (max-width: $mobile-xx-size) {
+        text-align: center;
+        font-size: 24px;
+    }
+}
+
+.subscribe__desc-text {
+    color: #F0F0F0;
+    font-size: 20px;
+    font-weight: 450;
+    line-height: 100%;
+
+    @media (max-width: $desctop-size-large) {
+        color: var(--black);
+    }
+
+    @media (max-width: $mobile-xx-size) {
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+.subscribe__form { 
+    flex-grow: 1;
+    
+}
+
+.email-form {
+    @extend %flex-basic;
+    justify-content: flex-end;
+    gap: 16px;
+
+    @media (max-width: $mobile-xxxx-size) {
+        flex-direction: column;
+    }
+
+    button[type='submit'] {
+        padding: 12px 24px;
+        border-radius: 8px;
+        background-color: var(--text-color);
+        color: var(--page-bg);
+        font-size: 16px;
+        font-weight: 450;
+        line-height: 150%; 
+        transition: opacity 0.2s ease-in;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    } 
+
+    input[type='email'] {
+        max-width: 328px;
+        flex-grow: 1;
+        padding: 13px 12px 13px 44px;
+        border-radius: 8px;
+        border: 1px solid var(--page-bg);
+        background-color: var(--page-bg);
+        background-image: url('./../img/icons/email.svg');
+        background-repeat: no-repeat;
+        background-position: 12px center;
+        background-size: 24px 24px;
+
+        @media (max-width: $tablet-size) {
+            border: 1px solid var(--black);
+        }
+
+        &::placeholder {
+            color: var(--text-color-2);
+            font-size: 14px;
+            font-weight: 450;
+        }
+    }
+}
+

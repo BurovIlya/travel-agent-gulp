@@ -1,0 +1,82 @@
+
+.discover__picture-scroll {
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    z-index: 111;
+
+    @media (max-width: $laptop-size) {
+		bottom: 10px;
+	}
+
+    @media (max-width: $laptop-x-size) {
+        bottom: 0;
+        right: 5px;
+    }
+
+    @media (max-width: $tablet-size) {
+        bottom: 5px;
+        right: 15px;
+    }
+
+    @media (max-width: $tablet-x-size) {
+        bottom: 40px;
+        right: 50px;
+    }
+
+    @media (max-width: $mobile-size) {
+        display: none;
+    }
+
+   
+}
+
+.scroll-down { 
+    position: relative;
+}
+
+.scroll-down__text { 
+    animation: rotation 10s linear 0s infinite running normal;
+
+    @media (max-width: $tablet-size) {
+        width: 120px;
+        height: 120px;
+    }
+
+    @media (max-width: $tablet-x-size) {
+        width: 180px;
+        height: 180px;
+    }
+
+    
+}
+
+.scroll-down__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    @media (max-width: $tablet-size) {
+        width: 30px;
+        height: 49px;
+    }
+
+    @media (max-width: $tablet-x-size) {
+        width: 50px;
+        height: 81px;
+    }
+
+    
+ }
+
+
+
+ @keyframes rotation {
+    0% {
+        transform: rotate(0deg);;
+    }
+    100% {
+        transform: rotate(360deg);;
+    }
+ }

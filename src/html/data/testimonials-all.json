@@ -1,0 +1,68 @@
+
+[
+    {
+        "text": "An outstanding resource for travel enthusiasts! The website's destination reviews and travel advice were spot-on. I now trust their recommendations for all my trips..",
+        "name": "Hendra Paru Paru",
+        "role": "Travel Enthusiast",
+        "img": "01.jpg",
+        "stars": 2
+    },
+    {
+        "text": "Amazing experience! The travel website made booking our vacation a breeze. Everything was well-organized, and we had a fantastic time exploring new places. Highly recommend!",
+        "name": "Nichole Edward",
+        "role": "Travel Enthusiast",
+        "img": "02.jpg",
+        "stars": 4
+    },
+    {
+        "text": "Lorem ipsum dolor sit amet, Efficient and reliable! The travel website helped me find the best travel deals, and their user-friendly interface made the booking process a breeze.",
+        "name": "Jonathan R.",
+        "role": "Travel Enthusiast",
+        "img": "03.jpg",
+        "stars": 3
+    },
+    
+    {
+        "text": "I had a seamless booking process with this travel website. Their website was easy to navigate, and I got fantastic deals on flights and accommodation. Will definitely use them for future trips.",
+        "name": "Akbar Cenglu",
+        "role": "Travel Enthusiast",
+        "img": "04.jpg",
+        "stars": 4
+    },
+    {
+        "text": "The travel website's customer service is top-notch! They were quick to respond to my queries and helped me plan a dream vacation. It was an excellent experience from start to finish.",
+        "name": "Jennice Ong",
+        "role": "Travel Enthusiast",
+        "img": "05.jpg",
+        "stars": 5
+    },
+    {
+        "text": "I loved the personalized itinerary feature of this travel website. It allowed me to plan my trip according to my preferences, making it a truly customized experience.",
+        "name": "Angela Cole",
+        "role": "Travel Enthusiast",
+        "img": "06.jpg",
+        "stars": 5
+    },
+    {
+        "text": "The detailed travel guides provided by this website were invaluable during our journey. We felt confident exploring a new destination, thanks to their helpful tips and insights. erat.",
+        "name": "Jake Paul",
+        "role": "Travel Enthusiast",
+        "img": "07.jpg",
+        "stars": 3
+    },
+    {
+        "text": "Hands down the best travel website I've ever used! The user interface was so intuitive, and I was able to book my dream vacation effortlessly. erat.",
+        "name": "Jake Paul",
+        "role": "Travel Enthusiast",
+        "img": "08.jpg",
+        "stars": 5
+    },
+    {
+        "text": "A one-stop-shop for all things travel! The website's variety of travel options and user reviews helped me make informed decisions and ensured a smooth trip.",
+        "name": "Bambang Susilo",
+        "role": "Travel Enthusiast",
+        "img": "09.jpg",
+        "stars": 4
+    }
+    
+]

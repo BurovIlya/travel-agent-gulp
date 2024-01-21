@@ -1,0 +1,47 @@
+
+.discover { 
+    padding: 60px 0;
+
+    @media (max-width: $mobile-xx-size) {
+		padding: 40px 0;
+	}
+}
+
+.discover__grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+
+    @media (max-width: $laptop-x-size) {
+        gap: 50px;
+    }
+
+    @media (max-width: $tablet-x-size) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.discover__title { 
+    margin-bottom: 24px;
+    background-image: url('./../img/discover/underline.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left bottom 5px;
+}
+
+.discover__text { 
+    margin-bottom: 40px;
+}
+
+
+.discover__picture {
+    position: relative;
+    z-index: -1;
+}
+ 
+.discover__picture-img {
+    @media (max-width: $tablet-x-size) {
+        width: 100%;
+    }
+}

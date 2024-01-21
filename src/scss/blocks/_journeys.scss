@@ -1,0 +1,146 @@
+
+.journeys {
+    padding: 60px 0;
+
+    @media (max-width: $laptop-size) {
+        padding: 30px 0;
+    }
+ }
+ 
+
+.journeys__row { 
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 30px;
+   align-items: start; 
+   
+   @media (max-width: $tablet-x-size) {
+    grid-template-columns: 1fr;
+   }
+}
+
+
+.journeys__title {
+    margin-bottom: 24px;
+
+    @media (max-width: $tablet-size) {
+        margin-bottom: 16px;
+    }
+
+    h2.title-2 {
+        @media (max-width: $laptop-x-size) {
+            font-size: 32px;
+        }
+    }
+}
+
+.journeys__desc { 
+    margin-bottom: 32px;
+
+    @media (max-width: $tablet-size) {
+        margin-bottom: 16px;
+    }
+}
+
+.journeys__list { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 32px;
+    column-gap: 24px;
+    
+    @media (max-width: $laptop-size) {
+        row-gap: 16px;
+        column-gap: 12px;
+    }
+    
+    @media (max-width: $tablet-size) {
+        grid-template-columns: 1fr; 
+    }
+}
+
+.journeys__list-item {
+   padding-left: 32px;
+   position: relative;
+
+   &::before {
+    content: attr(data-number);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: var(--accent);
+    color: var(--page-bg);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 150%; 
+
+   }
+
+   & > p {
+    color: var(--text-color-2);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 150%;
+    margin-bottom: 8px;
+
+    @media (max-width: $tablet-size) {
+        font-size: 14px;
+    }
+   }
+ }
+
+.journeys__list-item-title {
+    color: var(--text-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    margin-bottom: 4px;
+
+    @media (max-width: $tablet-size) {
+        font-size: 16px;
+    }
+ }
+
+.journeys__pictures {
+    position: relative;
+    max-width: 560px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+
+    @media (max-width: $tablet-x-size) {
+        justify-self: center;
+       }
+    
+
+    & > div {
+        overflow: hidden;
+        border-radius: 18px;
+
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    & > .journeys__pictures-tooltipe {
+        border-radius: 12px;
+    }
+
+ }
+
+.journeys__pictures-big { 
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    
+}
+
+.journeys__pictures-small { 
+    grid-row: 2;
+}
